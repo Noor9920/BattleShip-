@@ -1,0 +1,33 @@
+Title: A game of Battleship.
+	The program is for a game of battleship. In this program
+the player is asked for a guess and by giving the correct answer the
+ship sinks.
+
+Functions Used:
+Random
+User Defined Functions
+List
+
+Description:
+	In this Program a ship is placed at any position in the grid
+or Matrix with the help of random function. Then the user is asked 
+for no of rows and columns for matrix. Then many UDF were used 
+they are as follows,
+create_grid:
+	In this a list is created and in that rows and columns were
+appended.
+display_grid:
+	This Function is used for displaying the grid by names and 
+numbers.
+random_row:
+	This function is used for taking the random row position
+of the Ship.
+random_col:
+	This function is used for taking the random column position
+of the Ship.
+update_gridHit:
+	This Function is used when the user guess the correct location
+of the ship and updating the grid or matrix.
+update_gridMiss:
+	This Function is used when the user guess the incorrect location
+of the ship and updating the grid or matrix.
